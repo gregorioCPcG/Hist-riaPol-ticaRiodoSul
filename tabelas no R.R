@@ -46,15 +46,20 @@ lin9 + geom_line(aes(colour = GRUPO, linetype = GRUPO), size = 1.5) +
 desd47 <- read_excel("tabgeral1947.xlsx", 
                      col_types = c("numeric", "text", "text"))
 
+desd47_ <-read_excel("errata.xlsx", 
+                     col_types = c("numeric", "text", "text"))
+
 desd47$pleito <- as.Date(as.character(desd47$ano), format = "%Y")# se for usar
 
+desd47_$pleito <- as.Date(as.character(desd47$ano), format = "%Y")# se for usar
 desd47$cont <- 1 #variável para servir de marcador - usa para fazer contagem de variáveis
+desd47_$cont <- 1
 
-bar <- ggplot(desd47, aes(partidovitoria, cont))
+bar <- ggplot(desd47_, aes(partidovitoria, cont))
 bar + geom_bar(stat = "identity")
 
 
-bar <- ggplot(desd47, aes(partidovitoria, cont, fill= partidovitoria))
+bar <- ggplot(desd47_, aes(partidovitoria, cont, fill= partidovitoria))
 bar + geom_bar(stat = "identity") + labs(title = "", 
                                          subtitle = "Rio do Sul 1947-2020",
                                          x = "Partido", y= "Vitória cabeça de chapa", 
