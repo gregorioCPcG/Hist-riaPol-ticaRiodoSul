@@ -4,4 +4,8 @@ script dessa análise: https://sites.google.com/view/gregoriosilva/rio-do-sul-al
 
 fontes para classificação constam nos arquivos:
 
-fleischer; 17036-Texto do artigo-72299-1-10-20091023; fonte arvore genealógica
+https://github.com/gregorioCPcG/Hist-riaPol-ticaRiodoSul/blob/main/17036-Texto%20do%20artigo-72299-1-10-20091023.pdf
+
+https://github.com/gregorioCPcG/Hist-riaPol-ticaRiodoSul/blob/main/fleischer.jpg
+
+https://github.com/gregorioCPcG/Hist-riaPol-ticaRiodoSul/blob/main/fonte%20arvore%20genealogica.pdf
